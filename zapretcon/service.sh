@@ -73,8 +73,8 @@ After=network.target
 [Service]
 Type=simple
 WorkingDirectory=
-ExecStart=sudo /bin/bash $absolute_main_script_path -nointeractive >> /var/log/$SERVICE_NAME.log 2>&1
-ExecStop=sudo /bin/bash $absolute_stop_script_path
+ExecStart=/bin/bash $absolute_main_script_path -nointeractive >> /var/log/$SERVICE_NAME.log 2>&1
+ExecStop=/bin/bash $absolute_stop_script_path
 ExecStopPost=/bin/echo "Сервис завершён"
 PIDFile=/run/$SERVICE_NAME.pid
 
