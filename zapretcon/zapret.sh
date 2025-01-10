@@ -4,6 +4,5 @@ rm service.sh && rm conf.env
 wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/zapretcon/conf.env
 wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/zapretcon/service.sh
 chmod 750 service.sh && chmod 750 nfqws && chmod 750 main_script.sh && chmod 750 stop_and_clean_nft.sh
-wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/zapretcon/gen.bat
-mv gen.bat zapret-latest
+mv 'zapret-latest/general (ALT4).bat' zapret-latest/gen.bat
 ./service.sh
