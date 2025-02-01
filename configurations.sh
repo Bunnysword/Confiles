@@ -13,7 +13,12 @@ wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/
 
 
 #Autostart
-mv autostart/  ~/.config 
+mkdir ~/.config/autostart
+wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/autostart/OpenRGB.desktop
+wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/autostart/org.mozilla.firefox.desktop
+wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/autostart/org.telegram.desktop.desktop
+wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/autostart/steam.desktop
+mv *.desktop ~/.config/autostart
 
 #zapret
 wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/zapretcon/zapret.sh && chmod 750 zapret.sh && ./zapret.sh
