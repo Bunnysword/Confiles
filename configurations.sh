@@ -9,8 +9,7 @@ wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/
 mkdir -p ~/.config/pipewire/pipewire.conf.d && wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/10-no-resampling.conf && mv 10-no-resampling.conf ~/.config/pipewire/pipewire.conf.d/
 wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/10-sound.conf && mv 10-sound.conf ~/.config/pipewire/pipewire.conf.d/
 wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/.bash_profile && mv .bash_profile ~/
-
-
+#wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/nvidia-kms.conf && sudo mv nvidia-kms.conf /etc/modprobe.d/
 
 #Autostart
 mkdir ~/.config/autostart
