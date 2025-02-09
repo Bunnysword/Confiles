@@ -11,6 +11,7 @@ wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/
 wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/config.fish && mv config.fish ~/.config/fish/
 wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/fish_prompt.fish && mv fish_prompt.fish ~/.config/fish/functions/
 wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/SwordColors.colors && mv SwordColors.colors ~/.local/share/color-schemes/
+wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/SwordProfile.profile && mv SwordProfile.profile ~/.local/share/konsole/
 #wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/.bash_profile && mv .bash_profile ~/
 #wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/nvidia-kms.conf && sudo mv nvidia-kms.conf /etc/modprobe.d/
 
