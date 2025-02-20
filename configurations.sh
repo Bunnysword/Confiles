@@ -2,7 +2,7 @@
 
 #configs
 mkdir ~/.config/OpenRGB && wget https://github.com/Bunnysword/Confiles/raw/refs/heads/main/conf/1.orp && mv 1.orp ~/.config/OpenRGB/
-mkdir ~/.config/fastfetch https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/config.jsonc && mv config.jsonc ~/.config/fastfetch/
+mkdir ~/.config/fastfetch && wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/config.jsonc && mv config.jsonc ~/.config/fastfetch/
 wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/bugs.png && mv bugs.png ~/.config/fastfetch/
 mkdir ~/.config/MangoHud && wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/MangoHud.conf && mv MangoHud.conf ~/.config/MangoHud/
 wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/environment && sudo mv environment /etc
