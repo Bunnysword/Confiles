@@ -73,7 +73,7 @@
         {
             "type": "uptime",
             "key": "O",
-            "format": "{1} day, {3} min"
+            "format": "{1} day, {2} hours {3} min"
         },
         {
             "type": "packages",
