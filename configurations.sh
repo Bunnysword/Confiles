@@ -16,7 +16,7 @@ mkdir ~/.config/fish/functions/ && wget https://raw.githubusercontent.com/Bunnys
 
 #Autostart
 mkdir ~/.config/autostart
-wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/autostart/OpenRGB.desktop
+#wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/autostart/OpenRGB.desktop
 wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/autostart/org.mozilla.firefox.desktop
 wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/autostart/org.telegram.desktop.desktop
 wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/autostart/steam.desktop
