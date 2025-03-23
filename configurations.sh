@@ -1,9 +1,6 @@
 #!/bin/bash
 
 #configs
-
-mkdir ~/.config/fastfetch && wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/config.jsonc && mv config.jsonc ~/.config/fastfetch/
-wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/bugs.png && mv bugs.png ~/.config/fastfetch/
 mkdir ~/.config/MangoHud && wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/MangoHud.conf && mv MangoHud.conf ~/.config/MangoHud/
 wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/environment && sudo mv environment /etc
 mkdir -p ~/.config/pipewire/pipewire.conf.d && wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/10-no-resampling.conf && mv 10-no-resampling.conf ~/.config/pipewire/pipewire.conf.d/
