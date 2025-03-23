@@ -1,0 +1,68 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+    "type": "small",
+    "color": {"1": "cyan"},
+    "padding": {
+      "top": 0,
+      "left": 1,
+      "right": 1
+    }
+    },
+    "display": {
+        "color": "cyan",
+        "constants":[
+            "    "// {$1}, used in Custom module
+        ],
+        "key": {
+            "paddingLeft": 1
+        }
+    },
+    "modules": [
+        {
+            "type": "cpu",
+            "key": "С",
+            "format": "{1}"
+        },
+        {
+            "type": "gpu",
+            "key": "G",
+            "format": "{2}"
+        },
+        {
+            "type": "memory",
+            "key": "R",
+            "format": "{1} / {2}"
+        },
+        {
+            "type": "swap",
+            "key": "S",
+            "format": "{1} / {2}"
+        },
+        {
+            "type": "de",
+            "key": "D",
+            "format": "{2} {3}"
+        },
+        {
+            "type": "kernel",
+            "key": "K",
+            "format": "{2}"
+        },
+        {
+            "type": "uptime",
+            "key": "U",
+            "format": "{1} day, {2} hours {3} min"
+        },
+        {
+            "type": "packages",
+            "key": "R",
+            "format": "{1} pkg"
+        },
+        {
+            "type": "colors",
+            "paddingLeft": 1,
+            "symbol": "circle"
+        }
+    ]
+}
