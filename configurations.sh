@@ -17,9 +17,6 @@ wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/autos
 wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/autostart/steam.desktop
 mv *.desktop ~/.config/autostart
 
-#zapret
-wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/zapretcon/zapret.sh && chmod 750 zapret.sh && ./zapret.sh
-
 #Wakeup for Aorus Elite v2 fix 
 #wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/services/wakeup-disable_GPP0.service
 #sudo cp wakeup-disable_GPP0.service /etc/systemd/system/ && sudo systemctl enable wakeup-disable_GPP0.service
