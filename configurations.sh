@@ -11,7 +11,7 @@ wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/
 #mkdir ~/.steam/ ~/.steam/steam/ && wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/steam_dev.cfg && mv steam_dev.cfg ~/.steam/steam/
 
 #Autostart
-mkdir ~/.config/autostart
+#mkdir ~/.config/autostart
 #wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/autostart/org.mozilla.firefox.desktop
 #wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/autostart/org.telegram.desktop.desktop
 #wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/autostart/steam.desktop
