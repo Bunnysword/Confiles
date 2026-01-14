@@ -1,4 +1,5 @@
 #!/bin/bash
+
 mkdir -p ~/.config/{MangoHud,pipewire/pipewire.conf.d,fish/functions}
 wget https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/urlconf.txt && wget -i urlconf.txt
 mv MangoHud.conf ~/.config/MangoHud/
