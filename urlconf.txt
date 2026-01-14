@@ -1,7 +1,7 @@
-https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/MangoHud.conf
-https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/10-no-resampling.conf
-https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/10-sound.conf
-https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/config.fish
-https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/fish_prompt.fish
-https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/nvidia-kms.conf
-https://raw.githubusercontent.com/Bunnysword/Confiles/refs/heads/main/conf/environment
+https://raw.githubusercontent.com/Bunnysword/configs/refs/heads/main/conf/MangoHud.conf
+https://raw.githubusercontent.com/Bunnysword/configs/refs/heads/main/conf/10-no-resampling.conf
+https://raw.githubusercontent.com/Bunnysword/configs/refs/heads/main/conf/10-sound.conf
+https://raw.githubusercontent.com/Bunnysword/configs/refs/heads/main/conf/config.fish
+https://raw.githubusercontent.com/Bunnysword/configs/refs/heads/main/conf/fish_prompt.fish
+https://raw.githubusercontent.com/Bunnysword/configs/refs/heads/main/conf/nvidia-kms.conf
+https://raw.githubusercontent.com/Bunnysword/configs/refs/heads/main/conf/environment
