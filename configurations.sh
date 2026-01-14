@@ -6,5 +6,8 @@ mv 10-no-resampling.conf ~/.config/pipewire/pipewire.conf.d/
 mv 10-sound.conf ~/.config/pipewire/pipewire.conf.d/
 mv config.fish ~/.config/fish/
 mv fish_prompt.fish ~/.config/fish/functions/
+mv -i plasmashellrc ~/.config
+mv -i breezerc ~/.config
 sudo mv nvidia-kms.conf /etc/modprobe.d/
 sudo mv environment /etc
+systemctl --user restart plasma-plasmashell
