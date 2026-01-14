@@ -22,72 +22,68 @@
     },
     "modules": [
         {
-            "outputColor": "magenta",
-            "type": "custom", // HardwareStart
-            // {#1} is equivalent to `\u001b[1m`. {#} is equivalent to `\u001b[m`
-            "format":"┌   Hardware Information   ┐"
-        },
-        {
             "type": "cpu",
-            "key": "B",
+            "key": " CPU ",
+            "keyColor": "31",
             "format": "{1}"
         },
         {
             "type": "gpu",
-            "key": "U",
+            "key": " GPU ",
+            "keyColor": "31",
             "format": "{2}"
         },
         {
             "type": "memory",
-            "key": "N",
+            "key": " RAM ",
+            "keyColor": "31",
             "format": "{1} / {2}"
         },
         {
-            "type": "swap",
-            "key": "N",
-            "format": "{1} / {2}"
-        },
-        {
-            "type": "disk",
-            "key": "Y",
-            "format": "{size-used} / {size-total}",
-            "folders": "/",
-            "percent": {
-                "type": ["num"]
-            }
-        },
-        {
-            "type": "custom", // InformationEnd
-            "format": "⊦{$1}System Information{$1}⫞"
+            "outputColor": "magenta",
+            "type": "custom",
+            "format":""
         },
         {
             "type": "de",
-            "key": "S",
+            "key": " DDE ",
+            "keyColor": "31",
             "format": "{2} {3}"
         },
         {
             "type": "kernel",
-            "key": "W",
+            "key": " KRL ",
+            "keyColor": "31",
             "format": "{2}"
         },
         {
-            "type": "uptime",
-            "key": "O",
-            "format": "{1} day, {2} hours {3} min"
-        },
-        {
-            "type": "packages",
-            "key": "R",
-            "format": "{1} pkg"
-        },
-                {
             "type": "shell",
-            "key": "D",
+            "key": " SHL ",
+            "keyColor": "31",
             "format": "{1}"
         },
         {
-            "type": "custom", // InformationEnd
-            "format": "└{$1}{$1}{$1}  {$1}{$1}{$1}┘"
+            "outputColor": "magenta",
+            "type": "custom",
+            "format":""
+        },
+        {
+            "type": "command",
+            "key": " DAT ",
+            "keyColor": "31",
+            "text": "date"
+        },
+        {
+            "type": "uptime",
+            "key": " UPT ",
+            "keyColor": "31",
+            "format": "{1} day, {2} hours {3} min"
+        },
+        {
+            "type": "command",
+            "key": " LIV ",
+            "keyColor": "31",
+            "text": "birth_install=$(stat -c %W /); current=$(date +%s); days_difference=$(( (current - birth_install) / 86400 )); echo $days_difference days"
         },
         {
             "type": "colors",
@@ -96,3 +92,4 @@
         }
     ]
 }
+
