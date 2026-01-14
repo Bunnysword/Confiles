@@ -13,4 +13,4 @@ https://raw.githubusercontent.com/Bunnysword/configs/refs/heads/main/conf/kde/co
 https://raw.githubusercontent.com/Bunnysword/configs/refs/heads/main/conf/kde/kcm-about-distrorc
 https://raw.githubusercontent.com/Bunnysword/configs/refs/heads/main/conf/kde/plasmashellrc
 https://raw.githubusercontent.com/Bunnysword/configs/refs/heads/main/conf/kde/swordprofile.profile
-
+https://raw.githubusercontent.com/Bunnysword/configs/refs/heads/main/conf/kde/bugs.png
