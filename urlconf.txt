@@ -8,7 +8,6 @@ https://raw.githubusercontent.com/Bunnysword/configs/refs/heads/main/conf/enviro
 https://raw.githubusercontent.com/Bunnysword/configs/refs/heads/main/conf/kde/SwordColors.colors
 https://raw.githubusercontent.com/Bunnysword/configs/refs/heads/main/conf/kde/WhiteOnBlack.colorscheme
 https://raw.githubusercontent.com/Bunnysword/configs/refs/heads/main/conf/kde/breezerc
-https://raw.githubusercontent.com/Bunnysword/configs/refs/heads/main/conf/kde/config.conf
 https://raw.githubusercontent.com/Bunnysword/configs/refs/heads/main/conf/kde/config.jsonc
 https://raw.githubusercontent.com/Bunnysword/configs/refs/heads/main/conf/kde/kcm-about-distrorc
 https://raw.githubusercontent.com/Bunnysword/configs/refs/heads/main/conf/kde/plasmashellrc
